@@ -27,11 +27,11 @@ public class ASCIIArt {
             }
             avg/=3;
             int index = (int)((float) (avg / 255.0 * 64));
-            System.out.print(string.charAt(index));
+            System.out.print(string.charAt(index)+" ");
             // System.out.print(")");
-            if (j!=height-1) {
-               System.out.print(",");
-            }
+            // if (j!=height-1) {
+               // System.out.print(",");
+            // }
          }
          System.out.println();
       }
