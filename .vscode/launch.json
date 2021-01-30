@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch BasicGeometricDrawing",
+            "request": "launch",
+            "mainClass": "BasicGeometricDrawing",
+            "projectName": "Image Processing_442c556b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadingImages",
+            "request": "launch",
+            "mainClass": "ReadingImages",
+            "projectName": "Image Processing_442c556b",
+            "console": "externalTerminal"
+        }
+    ]
+}
